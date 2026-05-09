@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block titulo %}El alzheimer{% endblock %}</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="/">Inicio</a>
+        <a href="/sintomas">Sintomas</a>
+        <a href="/causas">Causas</a>
+        <a href="/diagnostico">Diagnosticos</a>
+        <a href="/tratamiento">Tratamiento</a>
+        <a href="/contacto">Contacto</a>
+    </nav>
+    </nav>
+
+    <header>
+        <h1>El alzheimer</h1>
+
+        <img class="logo" src="/static/1.webp" alt="El alzheimer">
+    </header>
+
+    {% block content %}{% endblock %}
+
+    <footer>Pie de página</footer>
+
+</body>
+</html>

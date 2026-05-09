@@ -1,0 +1,38 @@
+{% extends "base.html"%}
+
+{% block titulo %}Contacto{% endblock %}
+
+{% block content %}
+
+    <main>
+        <h1>Contacto</h1>
+
+        <div class="card">
+            <h3>¿Tienes dudas?</h3>
+            <p>
+                Si tienes preguntas o necesitas más información sobre la enfermedad de Alzheimer, no dudes en contactarnos. Estamos aquí para ayudarte a entender mejor esta condición y ofrecerte recursos útiles.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Formulario Estático (ejemplo)</h3>
+            <form action="#" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="tu@email.com">
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="Tu mensaje..."></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+
+
+    </main>
+
+{% endblock %}
+
+</html>
